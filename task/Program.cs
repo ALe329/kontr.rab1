@@ -2,7 +2,7 @@
 using static System.Console;
 Clear();
 // Инициализация массивов
-string[] arr1 = new string[5] {"78956", "Ho", "dog", "Hello", "pepsi"};
+string[] arr1 = new string[7] {"78956", "Yo", "men", "Hello", "!", "brother", "Piter"};
 string[] arr2 = new string[arr1.Length];
 FillArray(arr1, arr2);
 PrintArray(arr2);
@@ -20,3 +20,12 @@ void FillArray(string[] arr1, string[] arry2)
     }
 }
 
+// Создание метода вывода массива
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+       Write($"{array[i]} ");
+    }
+    WriteLine();
+}
