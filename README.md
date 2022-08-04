@@ -9,3 +9,6 @@
 ["1234", "1567", "-2", "computer science"] -> ["-2"]
 
 ["Russia", "Denmark", "Kazan"] -> []
+
+## 1. Сделал файл .giignore - внес в нее папку bin
+##  2. Сделал блок-схему в файле block_cshema.drawio.png
